@@ -97,11 +97,6 @@ Both files are copied successfully, each with its own mapping, into `bronze/OnPr
 
 ![Files in the data lake](images/datalake-output.png)
 
-## Ideas for improvement
-
-- The `@if` expression handles only two files. For more files, a cleaner approach is to store each file's mapping in a config table or JSON file and read it with a **Lookup** activity.
-- Add a mapping that actually renames or drops columns, to show the benefit more clearly.
-
 ## Project files
 
 ```
